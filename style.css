@@ -40,6 +40,7 @@ nav ul li a {
     padding: 10px 15px;
     cursor: pointer;
     border-radius: 5px;
+    
 }
 
 .hero {
@@ -64,6 +65,9 @@ nav ul li a {
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
+    background-color: #ff7a00;
+    text-decoration: none;
+    color: white;
 }
 
 .btn.secondary {
@@ -109,6 +113,50 @@ nav ul li a {
     padding: 10px 15px;
     margin: 5px;
     border-radius: 5px;
+}
+.contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #fffaf3;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    color: #ff7a00;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button.btn {
+    width: 100%;
+    margin-top: 10px;
 }
 
 footer {
