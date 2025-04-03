@@ -1,0 +1,120 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #130b02;
+    font-weight: 600;
+}
+
+.hire-btn {
+    background-color: #ff7a00;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(to right, #fffaf3, #fff3e0);
+}
+
+.hero .intro {
+    max-width: 50%;
+}
+
+.hero .highlight {
+    color: #ff7a00;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn.secondary {
+    background-color: #fff;
+    color: #ff7a00;
+    border: 2px solid #ff7a00;
+}
+
+.profile-img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.experience , .education , .interest {
+    padding: 50px;
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.job {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-left: 5px solid #ff7a00;
+    width: 60%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills {
+    text-align: center;
+    padding: 50px;
+}
+
+.skills-list span {
+    display: inline-block;
+    background-color: #fd9029;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff7a00;
+    color: white;
+    margin-top: 50px;
+}
