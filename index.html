@@ -1,90 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A portfolio">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+<!--This is the header , that  comprise of the navigation links-->
     <header>
         <h1>Portfolio</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#intro">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#interest">Interests</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact </a></li>
             </ul>
         </nav>
         <button class="hire-btn">Hire me</button>
+
     </header>
 
     <section class="hero">
-        <div class="intro">
+        <div id="intro">
             <h2>Hi there!</h2>
             <h1>My Name is <span class="highlight">Olusanmi Pelumi</span></h1>
-            <p>I am a skilled UI/UX Designer and a with a commitment to delivering engaging and visually appealing products. <br>
-                I have two years of experience in creating intuitive designs for both web and mobile applications, and I am proficient in Figma. <br>
-                 I work well with cross-functional teams to improve end-user experiences.</p>
-            <button class="hire-btn">Hire me</button>
-        
+            <p>I am a skilled UI/UX Designer and a with a commitment to delivering engaging and visually appealing
+                products. <br>
+                I have two years of experience in creating intuitive designs for both web and mobile applications, and I
+                am proficient in Figma. <br>
+                I work well with cross-functional teams to improve end-user experiences.</p>
+            <div> <a href="cv- frontend dev.pdf" class="btn" download>Download My CV</a></div>
+
+
         </div>
         <img src="image.jpg" alt="Profile Picture" class="profile-img">
     </section>
 
-    <section class="education">
+    <section id="education">
         <h2>Education</h2>
         <div class="timeline">
             <div class="job">
-                <p>I studied Biology at the Federal University Lokoja. I graduated from Zuri and Web 3Ladies As a UI/UX Designer. I'm learning at PowerLearnProject  Africa as a Frontend Developer</p>
+                <p>I studied Biology at the Federal University Lokoja. I graduated from Zuri and Web 3Ladies As a UI/UX
+                    Designer.
+                    I am currently learning Frontend Development at PowerLearnProject Africa </p>
             </div>
         </div>
     </section>
-    <section class="interest">
+    <section id="interest">
         <h2>Interests</h2>
         <div class="timeline">
             <div class="job">
-                <p>My interest include User Experience (UX) Design,  Responsive Web Design,  CSS Layout Techniques,Version Control (Git),  Design and Prototyping Tools (Figma, Sketch, Adobe XD) and Web Animations</p>
+                <p>My interest include User Experience (UX) Design, Responsive Web Design, CSS Layout Techniques,Version
+                    Control (Git), Design and Prototyping Tools (Figma, Sketch, Adobe XD) and Web Animations</p>
             </div>
         </div>
     </section>
-    <section class="experience">
+    <section id="projects">
         <h2>My Projects</h2>
         <div class="timeline">
             <div class="job">
                 <h3>AGROVEST APP</h3>
-                
-                <p>Agrovest is an innovative online farming app that 
-                    revolutionizes the agricultural investment landscape It provides the general public 
+
+                <p>Agrovest is an innovative online farming app that
+                    revolutionizes the agricultural investment landscape It provides the general public
                     with unique opportunity to participate in agriculture by investing in various agricultural projects.
                 </p>
                 <div><a href="https://www.behance.net/gallery/206315417/AgroVest" class="btn">View Project</a></div>
             </div>
             <div class="job">
                 <h3>DEONIFY MUSIC APP</h3>
-                
-                <p>Deonify is an innovative music streaming app designed to provide a personalized listening experience for music lovers.</p>
-                <div><a href="https://www.behance.net/gallery/199587271/Deonify-Music-App-UIUX-Case-Study" class="btn">View Project</a></div>
+
+                <p>Deonify is an innovative music streaming app designed to provide a personalized listening experience
+                    for music lovers.</p>
+                <div><a href="https://www.behance.net/gallery/199587271/Deonify-Music-App-UIUX-Case-Study"
+                        class="btn">View Project</a></div>
             </div>
             <div class="job">
                 <h3>BOOKCAFE</h3>
-            
-                <p>BookCafe is a user-friendly mobile application that facilitates the buying and selling of books among users.</p>
-                <div><a href="https://www.behance.net/gallery/176467731/BookCafe-UIUX-Case-study-on-a-bookstore-app" class="btn">View Project</a></div>
+
+                <p>BookCafe is a user-friendly mobile application that facilitates the buying and selling of books among
+                    users.</p>
+                <div><a href="https://www.behance.net/gallery/176467731/BookCafe-UIUX-Case-study-on-a-bookstore-app"
+                        class="btn">View Project</a></div>
             </div>
             <div class="job">
                 <h3>ANCESTRALS.</h3>
-            
-                <p>Created a meal ordering software for users with hectic schedules.</p>
-                <div><a href="#" class="btn">View Project</a></div>
+
+                <p>This project involves the development of a web application aimed at facilitating financial support
+                    from parents for an upcoming interhouse sports competition hosted by a small school.</p>
+                <div><a href="https://www.behance.net/gallery/172637813/UIUX-CASE-STUDY-SUPPORT-PLATFORM-FOR-INTERHOUSE-SPORT"
+                        class="btn">View Project</a></div>
             </div>
         </div>
-       
-    </div>
+
+        </div>
     </section>
 
-    <section class="skills">
+    <section id="skills">
         <h2>My Skills and Tools</h2>
         <div class="skills-list">
             <span>JavaScript</span>
@@ -95,8 +115,8 @@
             <span>Prototyping</span>
         </div>
     </section>
-    
-    <section class="contact">
+
+    <section id="contact">
         <h2>Contact Me</h2>
         <form action="#" method="POST">
             <div class="form-group">
@@ -123,4 +143,5 @@
         <p>© 2023 My Portfolio. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
