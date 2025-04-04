@@ -149,7 +149,7 @@ form {
 
 .form-group input,
 .form-group textarea {
-    width: 100%;
+    width: 96%;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
